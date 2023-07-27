@@ -1,79 +1,71 @@
-// BEGIN: 7c3d5f8b1f9a
-/* Add some style to the header */
-.site-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+/* FILEPATH: c:\All_GitHub_Projects\nimrodgoldberger.github.io\style.css */
+
+/* Header section */
+header {
+    text-align: center;
+    margin-top: 50px;
 }
 
-.site-header .logo {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-.site-header .site-nav {
-  float: right;
+p {
+    font-size: 1.5rem;
+    color: #666;
 }
 
-.site-header .site-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* Skills section */
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.site-header .site-nav li {
-  display: inline-block;
-  margin-left: 20px;
+.skill {
+    margin: 0 20px;
+    text-align: center;
 }
 
-.site-header .site-nav li:first-child {
-  margin-left: 0;
+.skill img {
+    width: 100px;
+    height: 100px;
 }
 
-.site-header .site-nav a {
-  text-decoration: none;
-  color: #fff;
+/* Projects section */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 50px;
 }
 
-.site-header .site-nav a:hover {
-  text-decoration: underline;
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
-/* Add some style to the main content */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-.container h1 {
-  font-size: 36px;
-  margin-top: 0;
+.card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
-.container p {
-  font-size: 18px;
-  line-height: 1.5;
+.card p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
 }
 
-.container ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.card a {
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
 }
-
-.container li {
-  margin-bottom: 10px;
-}
-
-.container a {
-  text-decoration: none;
-  color: #333;
-}
-
-.container a:hover {
-  text-decoration: underline;
-}
-// END: 7c3d5f8b1f9a
